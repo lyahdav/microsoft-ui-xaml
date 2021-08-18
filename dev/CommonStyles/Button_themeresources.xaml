@@ -166,8 +166,7 @@
                         Padding="{TemplateBinding Padding}"
                         HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}"
                         VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}"
-                        AutomationProperties.AccessibilityView="Raw"
-                        local:AnimatedIcon.State="Normal">
+                        AutomationProperties.AccessibilityView="Raw">
 
                         <contract7Present:ContentPresenter.BackgroundTransition>
                             <contract7Present:BrushTransition Duration="0:0:0.083" />
