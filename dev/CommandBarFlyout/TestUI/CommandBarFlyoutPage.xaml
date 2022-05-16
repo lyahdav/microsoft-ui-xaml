@@ -143,10 +143,17 @@
             <muxc:CommandBarFlyout Placement="Right" x:Name="Flyout6" AutomationProperties.AutomationId="Flyout6" Opened="OnFlyoutOpened" Closed="OnFlyoutClosed">
                 <muxc:CommandBarFlyout.SecondaryCommands>
                     <AppBarButton x:Name="UndoButton6" AutomationProperties.AutomationId="UndoButton6" Label="Undo" Icon="Undo" Click="OnElementClicked" />
+                    <AppBarSeparator IsTabStop="False" />
                     <AppBarButton x:Name="RedoButton6" AutomationProperties.AutomationId="RedoButton6" Label="Redo" Icon="Redo" Click="OnElementClicked" />
                     <AppBarButton x:Name="SelectAllButton6" AutomationProperties.AutomationId="SelectAllButton6" Label="Select all" Click="OnElementClicked" />
-                    <AppBarToggleButton x:Name="FavoriteToggleButton6" AutomationProperties.AutomationId="FavoriteToggleButton6" Label="Favorite" Icon="Favorite" Checked="OnElementChecked" Unchecked="OnElementUnchecked" />
+                    <!--<AppBarToggleButton x:Name="FavoriteToggleButton6" AutomationProperties.AutomationId="FavoriteToggleButton6" Label="Favorite" Icon="Favorite" Checked="OnElementChecked" Unchecked="OnElementUnchecked" />-->
                     <AppBarButton x:Name="LongLabelButton6" AutomationProperties.AutomationId="LongLabelButton6" Label="AppBarButton with long label" Visibility="Collapsed" Click="OnElementClicked" />
+                    <AppBarSeparator IsTabStop="False" />
+                    <AppBarButton Label="Text" />
+                    <AppBarButton Label="Text" />
+                    <AppBarSeparator IsTabStop="False" />
+                    <AppBarButton Label="Text" />
+                    <AppBarButton Label="Text" />
                 </muxc:CommandBarFlyout.SecondaryCommands>
             </muxc:CommandBarFlyout>
             <muxc:CommandBarFlyout Placement="Right" x:Name="Flyout7" AutomationProperties.AutomationId="Flyout7" Opened="OnFlyoutOpened" Closed="OnFlyoutClosed">
@@ -166,12 +173,12 @@
                     Visibility="Collapsed"
                     Label="Bold" Icon="Bold" Click="OnElementClicked" />
                 <AppBarButton x:Name="ItalicButton7"
-                    AutomationProperties.AutomationId="ItalicButton7"                    
+                    AutomationProperties.AutomationId="ItalicButton7"
                     IsEnabled="False"
                     AllowFocusWhenDisabled="True"
                     Label="Italic" Icon="Italic" Click="OnElementClicked" />
                 <AppBarButton x:Name="UnderlineButton7"
-                    AutomationProperties.AutomationId="UnderlineButton7"                    
+                    AutomationProperties.AutomationId="UnderlineButton7"
                     Label="Underline" Icon="Underline" Click="OnElementClicked" />
                 <muxc:CommandBarFlyout.SecondaryCommands>
                     <AppBarButton x:Name="UndoButton7" AutomationProperties.AutomationId="UndoButton7" Label="Undo" Icon="Undo" Click="OnElementClicked" />
